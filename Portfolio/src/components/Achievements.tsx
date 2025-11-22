@@ -17,7 +17,8 @@ export default function Achievements() {
                         Key <span className="text-primary">Achievements</span>
                     </h2>
 
-                    <div className="max-w-4xl mx-auto">
+                    <div className="max-w-4xl mx-auto grid gap-8">
+                        {/* Achievement 1: HackExpo */}
                         <div className="bg-gradient-to-r from-primary/10 to-secondary/10 border border-primary/20 rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden">
                             {/* Decorative background */}
                             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-10" />
@@ -35,6 +36,28 @@ export default function Achievements() {
                                 <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-gray-400">
                                     <Award className="w-4 h-4 text-secondary" />
                                     <span>Cybersecurity Challenge</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Achievement 2: Yamaha Smart AI Hackathon */}
+                        <div className="bg-gradient-to-r from-secondary/10 to-primary/10 border border-secondary/20 rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden">
+                            {/* Decorative background */}
+                            <div className="absolute top-0 left-0 w-64 h-64 bg-secondary/10 rounded-full blur-3xl -z-10" />
+
+                            <div className="bg-black/50 p-4 rounded-full border border-secondary/50">
+                                <Award className="w-12 h-12 text-secondary" />
+                            </div>
+
+                            <div className="text-center md:text-left">
+                                <h3 className="text-2xl font-bold text-white mb-2">Yamaha Smart AI Hackathon 2.0 Finalist</h3>
+                                <p className="text-secondary font-medium mb-4">2024</p>
+                                <p className="text-gray-300 mb-4">
+                                    Developed an AI-powered Emotion Detection Application with 90%+ accuracy, showcasing exceptional problem-solving skills and technical proficiency.
+                                </p>
+                                <div className="flex items-center justify-center md:justify-start gap-2 text-sm text-gray-400">
+                                    <Award className="w-4 h-4 text-primary" />
+                                    <span>AI & Machine Learning</span>
                                 </div>
                             </div>
                         </div>
